@@ -26,20 +26,15 @@ resource "aws_cloudwatch_log_group" "lambda" {
 }
 
 # Lambda function zip
-data "archive_file" "lambda" {
-  type        = "zip"
-  source_file = "${path.module}/../../lambda/handler.py"
-  output_path = "${path.module}/../../lambda/handler.zip"
-}
 
 # Lambda Function
 resource "aws_lambda_function" "asset_processor" {
-  filename         = data.archive_file.lambda.output_path
+  filename         = "${path.root}/../lambda/handler.zip"
   function_name    = "bedrock-asset-processor"
   role             = aws_iam_role.lambda.arn
   handler          = "handler.lambda_handler"
   runtime          = "python3.12"
-  source_code_hash = data.archive_file.lambda.output_base64sha256
+  source_code_hash = filebase64sha256("${path.root}/../lambda/handler.zip")
 
   tags = {
     Name = "bedrock-asset-processor"
