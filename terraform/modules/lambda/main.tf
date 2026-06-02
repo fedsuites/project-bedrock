@@ -28,8 +28,8 @@ resource "aws_cloudwatch_log_group" "lambda" {
 # Lambda function zip
 data "archive_file" "lambda" {
   type        = "zip"
-  source_file = "${path.root}/../lambda/handler.py"
-  output_path = "${path.root}/../lambda/handler.zip"
+  source_file = "${path.module}/../../lambda/handler.py"
+  output_path = "${path.module}/../../lambda/handler.zip"
 }
 
 # Lambda Function
