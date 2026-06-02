@@ -17,4 +17,6 @@ crash.log
 Thumbs.db
 
 # grading
-!grading.json
+!grading.json*.zip
+windows-amd64/
+alb-iam-policy.json
