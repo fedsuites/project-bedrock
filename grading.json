@@ -1,52 +1,12 @@
 {
-  "assets_bucket_name": {
-    "sensitive": false,
-    "type": "string",
-    "value": "bedrock-assets-altsoee0254616"
-  },
-  "cluster_endpoint": {
-    "sensitive": false,
-    "type": "string",
-    "value": "https://01834AE2C408A36CFD47C6D8B868E4D6.gr7.us-east-1.eks.amazonaws.com"
-  },
-  "cluster_name": {
-    "sensitive": false,
-    "type": "string",
-    "value": "project-bedrock-cluster"
-  },
-  "dev_view_access_key_id": {
-    "sensitive": false,
-    "type": "string",
-    "value": "AKIAWPPO57PN3ONWUK73"
-  },
-  "dev_view_password": {
-    "sensitive": true,
-    "type": "string",
-    "value": "I\u0026+(0rrEg18dA*O*H0_U"
-  },
-  "dev_view_secret_access_key": {
-    "sensitive": true,
-    "type": "string",
-    "value": "zY/Tog5JthvMAhkmdwrfWsfZuPn22mXLQmzPHiim"
-  },
-  "mysql_endpoint": {
-    "sensitive": false,
-    "type": "string",
-    "value": "project-bedrock-mysql.cg3giqmw6ueq.us-east-1.rds.amazonaws.com"
-  },
-  "postgres_endpoint": {
-    "sensitive": false,
-    "type": "string",
-    "value": "project-bedrock-postgres.cg3giqmw6ueq.us-east-1.rds.amazonaws.com"
-  },
-  "region": {
-    "sensitive": false,
-    "type": "string",
-    "value": "us-east-1"
-  },
-  "vpc_id": {
-    "sensitive": false,
-    "type": "string",
-    "value": "vpc-0ae12a4b2991a1a57"
-  }
+  "assets_bucket_name": {"sensitive": false, "type": "string", "value": "bedrock-assets-altsoee0254616"},
+  "cluster_endpoint": {"sensitive": false, "type": "string", "value": "https://01834AE2C408A36CFD47C6D8B868E4D6.gr7.us-east-1.eks.amazonaws.com"},
+  "cluster_name": {"sensitive": false, "type": "string", "value": "project-bedrock-cluster"},
+  "dev_view_access_key_id": {"sensitive": false, "type": "string", "value": "AKIAWPPO57PN74Y2MY72"},
+  "dev_view_password": {"sensitive": true, "type": "string", "value": "Bedrock2026!"},
+  "dev_view_secret_access_key": {"sensitive": true, "type": "string", "value": "JwHT3fBBo3JyLqj/wzd5Fq4AhGZ6Yle9iXS6CoDX"},
+  "mysql_endpoint": {"sensitive": false, "type": "string", "value": "project-bedrock-mysql.cg3giqmw6ueq.us-east-1.rds.amazonaws.com"},
+  "postgres_endpoint": {"sensitive": false, "type": "string", "value": "project-bedrock-postgres.cg3giqmw6ueq.us-east-1.rds.amazonaws.com"},
+  "region": {"sensitive": false, "type": "string", "value": "us-east-1"},
+  "vpc_id": {"sensitive": false, "type": "string", "value": "vpc-0ae12a4b2991a1a57"}
 }
