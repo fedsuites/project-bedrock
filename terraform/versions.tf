@@ -17,7 +17,7 @@ terraform {
   }
 
   backend "s3" {
-    bucket       = "project-bedrock-state-445567073243"
+    bucket       = "project-bedrock-state-409837635671"
     key          = "production/terraform.tfstate"
     region       = "us-east-1"
     use_lockfile = true
