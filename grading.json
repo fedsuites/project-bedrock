@@ -17,17 +17,17 @@
   "dev_view_access_key_id": {
     "sensitive": false,
     "type": "string",
-    "value": "AKIAV63B2BBLULLICHUB"
+    "value": "AKIAV63B2BBLVBR66IWH"
   },
   "dev_view_password": {
     "sensitive": true,
     "type": "string",
-    "value": "sS7rLb$5Gc08%'x5SH'p"
+    "value": "Bedrock2026!"
   },
   "dev_view_secret_access_key": {
     "sensitive": true,
     "type": "string",
-    "value": "XRDk5G0HdCH3ldN+zHA4xRBPCvgqZslQ4DqSvvIQ"
+    "value": "mWQJiZnIHPP4CL1RzDg+r2CMmQT6mV6wMQ5Xi49q"
   },
   "mysql_endpoint": {
     "sensitive": false,
