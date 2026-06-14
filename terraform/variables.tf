@@ -105,3 +105,4 @@ variable "rds_instance_class" {
   default     = "db.t3.micro"
 } 
  
+ 
