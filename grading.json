@@ -4,6 +4,11 @@
     "type": "string",
     "value": "bedrock-assets-altsoee0254616"
   },
+  "cluster_endpoint": {
+    "sensitive": false,
+    "type": "string",
+    "value": "https://EB5D38FA7832C770CA3925BFC4EE6C67.gr7.us-east-1.eks.amazonaws.com"
+  },
   "cluster_name": {
     "sensitive": false,
     "type": "string",
@@ -17,12 +22,22 @@
   "dev_view_password": {
     "sensitive": true,
     "type": "string",
-    "value": "vKU%8{=2K8u['ob!JsF7"
+    "value": "Bedrock2026!"
   },
   "dev_view_secret_access_key": {
     "sensitive": true,
     "type": "string",
     "value": "898Us5JG21ITcsnoIhBegJEvLWluEEmzmHGfA7RH"
+  },
+  "mysql_endpoint": {
+    "sensitive": false,
+    "type": "string",
+    "value": "project-bedrock-mysql.c0tsmcq2eymn.us-east-1.rds.amazonaws.com"
+  },
+  "postgres_endpoint": {
+    "sensitive": false,
+    "type": "string",
+    "value": "project-bedrock-postgres.c0tsmcq2eymn.us-east-1.rds.amazonaws.com"
   },
   "region": {
     "sensitive": false,
