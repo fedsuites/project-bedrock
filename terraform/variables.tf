@@ -17,9 +17,9 @@ variable "environment" {
 }
 
 variable "student_id" {
-  description = "AltSchool student ID for unique resource naming. Note: bucket uses altsoee025461600 due to global S3 namespace conflict with previous deployment."
+  description = "AltSchool student ID for unique resource naming"
   type        = string
-  default     = "altsoee025461600"
+  default     = "altsoee0254616"
 }
 
 # VPC
